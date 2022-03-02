@@ -3,14 +3,47 @@ body {
 }
 
 .FirstContainer {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 899px;
-    left: 15px;
-    top: 42px;
+    top: 180px;
+    left: 4px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.firstnavbox {
+    position: static;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    height: 157px;
+    display: flex;
+    justify-content: center;
+}
+
+.navcontainer {
+    width: 92%;
+    height: 78px;
+    left: 60px;
+    top: 42px;
+    background: #000000;
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.textbox {
+    width: 165px;
+    height: 37px;
+    font-size: 25px;
+    color: white;
+}
+
+.navcontainer .textbox {
+    justify-content: center;
 }
 
 .image-container {
@@ -38,4 +71,14 @@ body {
     width: 406px;
     top: 114px;
     left: -44px;
+}
+
+.paragraph-info p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.paragraph-info h1 {
+    text-align: center;
+    font-size: 60px;
 }
